@@ -45,7 +45,7 @@ $(document).ready(function () {
   $("#nav__toggle").on("click", function () {
     $(this).toggleClass("nav-open");
     $("#nav-menu").toggleClass("show");
-    $("body").addClass("active");
+    $("body").toggleClass("active");
   });
 
   /*==================== REMOVE MENU MOBILE ====================*/
