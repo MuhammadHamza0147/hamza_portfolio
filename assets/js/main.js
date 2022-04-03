@@ -32,10 +32,12 @@ $(document).ready(function () {
         .children(".chat-label")
         .text());
   });
+
   $(".close-chat").on("click", function () {
     $("#whatsapp-chat").addClass("hide").removeClass("show");
   });
-  $(".blanter-show").on("click", function () {
+
+  $(".blantershow-chat").on("click", function () {
     $("#whatsapp-chat").addClass("show").removeClass("hide");
   });
 
@@ -43,12 +45,14 @@ $(document).ready(function () {
   $("#nav__toggle").on("click", function () {
     $(this).toggleClass("nav-open");
     $("#nav-menu").toggleClass("show");
+    $("body").addClass("active");
   });
 
   /*==================== REMOVE MENU MOBILE ====================*/
   $(".nav__link").on("click", function () {
     $("#nav__toggle").removeClass("nav-open");
     $("#nav-menu").removeClass("show");
+    $("body").removeClass("active");
   });
 });
 
