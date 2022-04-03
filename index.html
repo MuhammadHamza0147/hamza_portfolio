@@ -1,786 +1,867 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="assets/img/Logo.png"/>
-        <link rel="stylesheet" href="assets/css/chat-box.css">
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/styles-team.css">
-        <link rel="stylesheet" href="assets/css/modal-style.css">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="assets/img/Logo.png"/>
+    <link rel="stylesheet" href="assets/css/chat-box.css"/>
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link rel="stylesheet" href="assets/css/styles-team.css"/>
+    <link rel="stylesheet" href="assets/css/modal-style.css"/>
 
-        <!-- =====Chat BOX ===== -->
+    <!-- =====Chat BOX ===== -->
 
-        <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato">
+    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato"/>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- =====BOX ICONS===== -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+            rel="stylesheet"
+            />
+    <script
+            src="https://kit.fontawesome.com/a076d05399.js"
+            crossorigin="anonymous"
+            ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <title>Mr. Hamza Portfolio</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Mr.<span style="color: var(--first-color)">Hamza</span></a>
-                </div>
+    <title>Mr. Hamza Portfolio</title>
+</head>
+<body>
+<!--===== HEADER =====-->
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo"
+                    >Mr.<span style="color: var(--first-color)">Hamza</span></a
+                    >
+        </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">Projects</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#team" class="nav__link">Team</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+        <div class="nav__toggle" id="nav__toggle">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
+</header>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Muhammad Hamza</span><br> Front-End Developer</h1>
+<main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+        <div class="home__data">
+            <h1 class="home__title">
+                Hi,<br/>I'am <span class="home__title-color">Muhammad Hamza</span
+                    ><br/>
+                Front-End Developer
+            </h1>
 
-                    <a href="assets/img/Muhammad-Hamza-CV.pdf" download="" class="buttons">Download CV <i class="bx bx-download"></i></a>
-                </div>
+            <a href="assets/img/Muhammad-Hamza-CV.pdf" download="" class="buttons"
+                    >Download CV <i class="fa fa-download" aria-hidden="true"></i></a>
+        </div>
 
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/muhammad-hamza-13b5401b4" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.reddit.com/u/Mr-Hamza_0266?utm_medium=android_app&utm_source=share" class="home__social-icon"><i class='bx bxl-reddit' ></i></a>
-                    <a href="https://github.com/MuhammadHamza0147" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.twitter.com/hamza_0266?t=2Z3HvSBU5Z-kdmj4MmO06w&s=08" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
-                </div>
+        <div class="home__social">
+            <a
+                    href="https://www.linkedin.com/in/muhammad-hamza-13b5401b4"
+                    class="home__social-icon"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a
+                    href="https://www.reddit.com/u/Mr-Hamza_0266?utm_medium=android_app&utm_source=share"
+                    class="home__social-icon"
+                    ><i class="fa fa-reddit" aria-hidden="true"></i></a>
+            <a
+                    href="https://github.com/MuhammadHamza0147"
+                    class="home__social-icon"
+                    ><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a
+                    href="https://www.twitter.com/hamza_0266?t=2Z3HvSBU5Z-kdmj4MmO06w&s=08"
+                    class="home__social-icon"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
 
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="65" y="0" href="assets/img/hamza.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
+        <div class="home__img">
+            <svg
+                    class="home__blob"
+                    viewBox="0 0 479 467"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                <mask id="mask0" mask-type="alpha">
+                    <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+                            />
+                </mask>
+                <g mask="url(#mask0)">
+                    <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+                            />
+                    <image
+                            class="home__blob-img"
+                            x="65"
+                            y="0"
+                            href="assets/img/hamza.png"
+                            />
+                </g>
+            </svg>
+        </div>
+    </section>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/main-img.jpg" alt="">
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="assets/img/main-img.jpg" alt=""/>
+            </div>
+
+            <div>
+                <h2 class="about__subtitle">I'am Muhammad Hamza.</h2>
+
+                <p class="about__text">
+                    I'm doing Bachelor's in Information Technology (BSIT).I'm Web
+                    Desginer. I have 4 year experience of Front-End
+                    (HTML5,CSS3,JS,BOOTSTRAP,JQuery). And also have 1.5 year
+                    experience of Back-End (Core PHP,Ajax,MySQL). I have a team of
+                    Developers.
+                </p>
+                <a href="#contact" class="button" style=""
+                        >For More Detail Contact Us...<i class="fa fa-downarrow"></i
+                        ></a>
+            </div>
+        </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+            <div>
+                <h2 class="skills__subtitle">Profesional Skills</h2>
+
+                <p class="skills__text">Excellent Skills</p>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="bx bxl-html5 skills__icon"></i>
+                        <span class="skills__name">HTML5</span>
                     </div>
-                    
+                    <div class="skills__bar skills__html"></div>
                     <div>
-                        <h2 class="about__subtitle">I'am Muhammad Hamza.</h2>
-                        <p class="about__text">I'm doing Bachelor's in Information Technology (BSIT).I'm Web Desginer. I have 4 year experience of Front-End (HTML5,CSS3,JS,BOOTSTRAP,JQuery). And also have 1.5 year experience of Back-End (Core PHP,Ajax,MySQL). I have a team of Developers.</p>
-                        <a href="#contact" class="button" style="">For More Detail Contact Us...<i class="bx bx-downarrow"></i></a>
-
+                        <span class="skills__percentage">98%</span>
                     </div>
                 </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="bx bxl-css3 skills__icon"></i>
+                        <span class="skills__name">CSS3</span>
+                    </div>
+                    <div class="skills__bar skills__css"></div>
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Excellent Skills</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">98%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">50%</span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-bootstrap skills__icon'></i>
-                                <span class="skills__name">BOOTSTRAP</span>
-                            </div>
-                            <div class="skills__bar skills__bootstrap">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">99%</span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='fab fa-php skills__icon'></i>
-                                <span class="skills__name">PHP</span>
-                            </div>
-                            <div class="skills__bar skills__php">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">55%</span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='fa fa-database skills__icon'></i>
-                                <span class="skills__name">MySQL</span>
-                            </div>
-                            <div class="skills__bar skills__sql">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">90%</span>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work-3.jpg" alt="" class="skills__img">
+                        <span class="skills__percentage">95%</span>
                     </div>
                 </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Projects</h2>
-
-                <div class="work__container bd-grid">
-
-                   <div class="containers">
-                       <a href="https://www.tailorstore.com/" class="work__img">
-                           <img src="assets/img/talior.png" alt="">
-                       </a>
-                       <div class="overlay">
-                           <div class="text">TAILOR STORE</div>
-                       </div>
-                   </div>
-
-                    <div class="containers">
-                        <a href="https://www.tireagent.com/" class="work__img">
-                            <img src="assets/img/tires.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <div class="text">TIRE AGENT</div>
-                        </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="bx bxl-javascript skills__icon"></i>
+                        <span class="skills__name">JAVASCRIPT</span>
                     </div>
-
-                    <div class="containers">
-                        <a href="https://www.letstango.com/" class="work__img">
-                            <img src="assets/img/tango.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <div class="text">TANGO</div>
-                        </div>
+                    <div class="skills__bar skills__js"></div>
+                    <div>
+                        <span class="skills__percentage">50%</span>
                     </div>
-
-                    <div class="containers">
-                        <a href="https://mailchimp.com/" class="work__img">
-                            <img src="assets/img/chimpmail.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <div class="text">MAIL CHIMP</div>
-                        </div>
-                    </div>
-
-                    <div class="containers">
-                        <a href="https://www.ilovepdf.com/" class="work__img">
-                            <img src="assets/img/ilpfd.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <div class="text">I LOVE PDF</div>
-                        </div>
-                    </div>
-
-                    <div class="containers">
-                        <a href="https://riwajmenswear.com/" class="work__img">
-                            <img src="assets/img/riwaj.png" alt="">
-                        </a>
-                        <div class="overlay">
-                            <div class="text">RIWAJ MEN's WEAR</div>
-                        </div>
-                    </div>
-
                 </div>
-            </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="team">
-                <h2 class="section-title">Team Members</h2>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="bx bxl-bootstrap skills__icon"></i>
+                        <span class="skills__name">BOOTSTRAP</span>
+                    </div>
+                    <div class="skills__bar skills__bootstrap"></div>
+                    <div>
+                        <span class="skills__percentage">99%</span>
+                    </div>
+                </div>
 
-                <div class="container">
-                    <input type="radio" name="dot" id="one">
-                    <input type="radio" name="dot" id="two">
-                    <div class="main-card">
-                        <div class="cards">
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="fab fa-php skills__icon"></i>
+                        <span class="skills__name">PHP</span>
+                    </div>
+                    <div class="skills__bar skills__php"></div>
+                    <div>
+                        <span class="skills__percentage">55%</span>
+                    </div>
+                </div>
 
-                            <!--//Member 1st//-->
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class="fa fa-database skills__icon"></i>
+                        <span class="skills__name">MySQL</span>
+                    </div>
+                    <div class="skills__bar skills__sql"></div>
+                    <div>
+                        <span class="skills__percentage">90%</span>
+                    </div>
+                </div>
+            </div>
 
-                            <div class="card">
-                                <div class="product_bubble product_bubble_right product_bubble_red   ">
-                                    <button class="modal-open view-btn">View More</button>
-                                </div>
+            <div>
+                <img src="assets/img/work-3.jpg" alt="" class="skills__img"/>
+            </div>
+        </div>
+    </section>
 
-                                <div class="modal-box">
-                                    <div class="modal-box-content">
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+        <h2 class="section-title">Projects</h2>
 
-                                        <div class="content">
+        <div class="work__container bd-grid">
+            <div class="containers">
+                <a href="https://www.tailorstore.com/" class="work__img">
+                    <img src="assets/img/talior.png" alt=""/>
+                </a>
 
-                                            <div class="img image">
-                                                <img src="assets/img/nasir.jpeg" alt="">
-                                            </div>
-                                            <div class="details">
-                                                <div class="name">Nasir Bashir</div>
-                                                <div class="job">Full Stack Developer</div>
-                                                <div class="job"><small>Full Stack Developer 8 Year experience of Web & Mobile app Development (Front-End + Back-End).</small></div>
-                                            </div>
-                                        </div>
+                <div class="overlay">
+                    <div class="text">TAILOR STORE</div>
+                </div>
+            </div>
 
-                                    </div>
-                                    <button class="modal-close"><span class="visuallyhidden">Close modal box</span></button>
-                                </div>
+            <div class="containers">
+                <a href="https://www.tireagent.com/" class="work__img">
+                    <img src="assets/img/tires.png" alt=""/>
+                </a>
 
+                <div class="overlay">
+                    <div class="text">TIRE AGENT</div>
+                </div>
+            </div>
+
+            <div class="containers">
+                <a href="https://www.letstango.com/" class="work__img">
+                    <img src="assets/img/tango.png" alt=""/>
+                </a>
+
+                <div class="overlay">
+                    <div class="text">TANGO</div>
+                </div>
+            </div>
+
+            <div class="containers">
+                <a href="https://mailchimp.com/" class="work__img">
+                    <img src="assets/img/chimpmail.png" alt=""/>
+                </a>
+
+                <div class="overlay">
+                    <div class="text">MAIL CHIMP</div>
+                </div>
+            </div>
+
+            <div class="containers">
+                <a href="https://www.ilovepdf.com/" class="work__img">
+                    <img src="assets/img/ilpfd.png" alt=""/>
+                </a>
+
+                <div class="overlay">
+                    <div class="text">I LOVE PDF</div>
+                </div>
+            </div>
+
+            <div class="containers">
+                <a href="https://riwajmenswear.com/" class="work__img">
+                    <img src="assets/img/riwaj.png" alt=""/>
+                </a>
+
+                <div class="overlay">
+                    <div class="text">RIWAJ MEN's WEAR</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===== WORK =====-->
+    <section class="work section" id="team">
+        <h2 class="section-title">Team Members</h2>
+
+        <div class="container">
+            <input type="radio" name="dot" id="one"/>
+            <input type="radio" name="dot" id="two"/>
+
+            <div class="main-card">
+                <div class="cards">
+                    <!--//Member 1st//-->
+
+                    <div class="card">
+                        <div
+                                class="product_bubble product_bubble_right product_bubble_red"
+                                >
+                            <button class="modal-open view-btn">View More</button>
+                        </div>
+
+                        <div class="modal-box">
+                            <div class="modal-box-content">
                                 <div class="content">
-
-                                    <div class="img">
-                                        <img src="assets/img/nasir.jpeg" alt="">
+                                    <div class="img image">
+                                        <img src="assets/img/nasir.jpeg" alt=""/>
                                     </div>
                                     <div class="details">
                                         <div class="name">Nasir Bashir</div>
-                                        <div class="job work">Full Stack Developer</div>
-                                        <a href="assets/img/.." download="" class="button" style="">Download CV<i class="bx bx-download"></i></a>
-                                    </div>
-                                    <div class="media-icons">
-                                        <a href="#"><i class="bx bxl-facebook"></i></a>
-                                        <a href="#"><i class="bx bxl-twitter"></i></a>
-                                        <a href="#"><i class="bx bxl-linkedin"></i></a>
-                                        <a href="#"><i class="bx bxl-github"></i></a>
+                                        <div class="job">Full Stack Developer</div>
+                                        <div class="job">
+                                            <small
+                                                    >Full Stack Developer 8 Year experience of Web &
+                                                Mobile app Development (Front-End +
+                                                Back-End).
+                                            </small
+                                                    >
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <button class="modal-close">
+                                <span class="visuallyhidden">Close modal box</span>
+                            </button>
+                        </div>
 
-                            <!--//Member 2nd//-->
-                            <div class="card">
-                                <div class="product_bubble product_bubble_right product_bubble_red   ">
-                                    <button class="modal-open view-btn">View More</button>
-                                </div>
+                        <div class="content">
+                            <div class="img">
+                                <img src="assets/img/nasir.jpeg" alt=""/>
+                            </div>
+                            <div class="details">
+                                <div class="name">Nasir Bashir</div>
+                                <div class="job work">Full Stack Developer</div>
+                                <a href="assets/img/.." download="" class="button" style=""
+                                        >Download CV<i class="fa fa-download"></i
+                                        ></a>
+                            </div>
+                            <div class="media-icons">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
-                                <div class="modal-box">
-                                    <div class="modal-box-content">
+                    <!--//Member 2nd//-->
+                    <div class="card">
+                        <div
+                                class="product_bubble product_bubble_right product_bubble_red"
+                                >
+                            <button class="modal-open view-btn">View More</button>
+                        </div>
 
-                                        <div class="content">
-                                            <div class="img image">
-                                                <img src="assets/img/haroon.jpeg" alt="">
-                                            </div>
-                                            <div class="details">
-                                                <div class="name">Muhammad Haroon</div>
-                                                <div class="job">Web Designer</div>
-                                                <div class="job"><small>4 Year experience of Web Desgin & Also have Programming skills C/C++/OOP/Core PHP.</small></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="modal-close"><span class="visuallyhidden">Close modal box</span></button>
-                                </div>
-
+                        <div class="modal-box">
+                            <div class="modal-box-content">
                                 <div class="content">
-                                    <div class="img">
-                                        <img src="assets/img/haroon.jpeg" alt="">
+                                    <div class="img image">
+                                        <img src="assets/img/haroon.jpeg" alt=""/>
                                     </div>
-
-                                        <div class="details">
-                                            <div class="name">Muhammad Haroon</div>
-                                            <div class="job work">Web Designer</div>
-                                            <a href="assets/img/Muhammad-Haroon-CV.pdf" download="" class="button" >Download CV<i class="bx bx-download"></i></a>
+                                    <div class="details">
+                                        <div class="name">Muhammad Haroon</div>
+                                        <div class="job">Web Designer</div>
+                                        <div class="job">
+                                            <small
+                                                    >4 Year experience of Web Desgin & Also have
+                                                Programming skills C/C++/OOP/Core PHP.
+                                            </small
+                                                    >
                                         </div>
-
-                                    <!--</div>-->
-                                    <div class="media-icons">
-                                        <a href="https://www.facebook.com/mian.haroon.311056"><i class="bx bxl-facebook"></i></a>
-                                        <a href="https://twitter.com/MiHi_007?t=d-1iOrEIJoo3JngjFpycIA&s=08"><i class="bx bxl-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/in/muhammad-haroon-79073622b"><i class="bx bxl-linkedin"></i></a>
-                                        <a href="https://www.reddit.com/u/MiHi_007?utm_medium=android_app&utm_source=share"><i class="bx bxl-reddit"></i></a>
                                     </div>
                                 </div>
                             </div>
+                            <button class="modal-close">
+                                <span class="visuallyhidden">Close modal box</span>
+                            </button>
+                        </div>
 
-                            <!--//Member 3rd//-->
+                        <div class="content">
+                            <div class="img">
+                                <img src="assets/img/haroon.jpeg" alt=""/>
+                            </div>
 
-                            <div class="card">
+                            <div class="details">
+                                <div class="name">Muhammad Haroon</div>
+                                <div class="job work">Web Designer</div>
+                                <a
+                                        href="assets/img/Muhammad-Haroon-CV.pdf"
+                                        download=""
+                                        class="button"
+                                        >Download CV<i class="fa fa-download"></i
+                                        ></a>
+                            </div>
 
-                                <div class="product_bubble product_bubble_right product_bubble_red   ">
-                                    <button class="modal-open view-btn">View More</button>
-                                </div>
+                            <!--</div>-->
+                            <div class="media-icons">
+                                <a href="https://www.facebook.com/mian.haroon.311056"
+                                        ><i class="fa fa-facebook"></i></a>
+                                <a
+                                        href="https://twitter.com/MiHi_007?t=d-1iOrEIJoo3JngjFpycIA&s=08"
+                                        ><i class="fa fa-twitter"></i></a>
+                                <a
+                                        href="https://www.linkedin.com/in/muhammad-haroon-79073622b"
+                                        ><i class="fa fa-linkedin"></i></a>
+                                <a
+                                        href="https://www.reddit.com/u/MiHi_007?utm_medium=android_app&utm_source=share"
+                                        ><i class="fa fa-reddit"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
-                                <div class="modal-box">
-                                    <div class="modal-box-content">
+                    <!--//Member 3rd//-->
 
-                                        <div class="content">
+                    <div class="card">
+                        <div
+                                class="product_bubble product_bubble_right product_bubble_red"
+                                >
+                            <button class="modal-open view-btn">View More</button>
+                        </div>
 
-                                            <div class="img image">
-                                                <img src="assets/img/ramish.jpeg" alt="">
-                                            </div>
-                                            <div class="details">
-                                                <div class="name">Ramish Hassan</div>
-                                                <div class="job">Web Designer</div>
-                                                <div class="job"><small>2 Year experience of Web Desgin & Also working on magento2/React Native/Custom Code.</small></div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <button class="modal-close"><span class="visuallyhidden">Close modal box</span></button>
-                                </div>
-
-
+                        <div class="modal-box">
+                            <div class="modal-box-content">
                                 <div class="content">
-                                    <div class="img">
-                                        <img src="assets/img/ramish.jpeg" alt="">
+                                    <div class="img image">
+                                        <img src="assets/img/ramish.jpeg" alt=""/>
                                     </div>
                                     <div class="details">
                                         <div class="name">Ramish Hassan</div>
-                                        <div class="job work">Web Designer</div>
-                                        <a href="assets/img/.." download="" class="button">Download CV<i class="bx bx-download"></i></a>
-                                    </div>
-                                    <div class="media-icons">
-                                        <a href="https://www.facebook.com/ramish.hassan.12720"><i class="bx bxl-facebook"></i></a>
-                                        <a href="https://twitter.com/Ramishscrapper"><i class="bx bxl-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/in/ramish-hassan-407a7b1a7"><i class="bx bxl-linkedin"></i></a>
-                                        <a href="https://github.com/Ramishscrapper"><i class="bx bxl-github"></i></a>
+                                        <div class="job">Web Designer</div>
+                                        <div class="job">
+                                            <small
+                                                    >2 Year experience of Web Desgin & Also working on
+                                                magento2/React Native/Custom Code.
+                                            </small
+                                                    >
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <button class="modal-close">
+                                <span class="visuallyhidden">Close modal box</span>
+                            </button>
                         </div>
-                        <div class="cards">
 
-                            <!--//Member 4th//-->
+                        <div class="content">
+                            <div class="img">
+                                <img src="assets/img/ramish.jpeg" alt=""/>
+                            </div>
+                            <div class="details">
+                                <div class="name">Ramish Hassan</div>
+                                <div class="job work">Web Designer</div>
+                                <a href="assets/img/.." download="" class="button"
+                                        >Download CV<i class="fa fa-download"></i></a>
+                            </div>
+                            <div class="media-icons">
+                                <a href="https://www.facebook.com/ramish.hassan.12720"
+                                        ><i class="fa fa-facebook"></i
+                                        ></a>
+                                <a href="https://twitter.com/Ramishscrapper"
+                                        ><i class="fa fa-twitter"></i
+                                        ></a>
+                                <a
+                                        href="https://www.linkedin.com/in/ramish-hassan-407a7b1a7"
+                                        ><i class="fa fa-linkedin"></i
+                                        ></a>
+                                <a href="https://github.com/Ramishscrapper"
+                                        ><i class="fa fa-github"></i
+                                        ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <!--//Member 4th//-->
 
-                            <div class="card">
+                    <div class="card">
+                        <div
+                                class="product_bubble product_bubble_right product_bubble_red"
+                                >
+                            <button class="modal-open view-btn">View More</button>
+                        </div>
 
-                                <div class="product_bubble product_bubble_right product_bubble_red   ">
-                                    <button class="modal-open view-btn">View More</button>
-                                </div>
-
-                                <div class="modal-box">
-                                    <div class="modal-box-content">
-
-                                        <div class="content">
-
-                                            <div class="img image">
-                                                <img src="assets/img/bassit.jpeg" alt="">
-
-                                            </div>
-                                            <div class="details">
-                                                <div class="name">Abd-ul-Basit</div>
-                                                <div class="job">Web + UI/UX Desginer</div>
-                                                <div class="job"><small>3 Year experience of Web & Mobile app UX & Custom Desgining & Also have networking skills.</small></div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <button class="modal-close"><span class="visuallyhidden">Close modal box</span></button>
-                                </div>
-
-
+                        <div class="modal-box">
+                            <div class="modal-box-content">
                                 <div class="content">
-                                    <div class="img">
-                                        <img src="assets/img/bassit.jpeg" alt="">
+                                    <div class="img image">
+                                        <img src="assets/img/bassit.jpeg" alt=""/>
                                     </div>
                                     <div class="details">
                                         <div class="name">Abd-ul-Basit</div>
-                                        <div class="job work">Web + UI/UX Desginer</div>
-                                        <a href="assets/img/.." download="" class="button">Download CV<i class="bx bx-download"></i></a>
-                                    </div>
-                                    <div class="media-icons">
-                                        <a href="https://www.facebook.com/basit.sohail.5"><i class="bx bxl-facebook"></i></a>
-                                        <a href="https://twitter.com/AbdulBa05281240?t=lSnqkpOBOnHkq7ZWc0UjCw&s=08"><i class="bx bxl-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/in/abdul-basit-13071822b"><i class="bx bxl-linkedin"></i></a>
-                                        <a href="https://www.reddit.com/u/No_Network7074?utm_medium=android_app&utm_source=share"><i class="bx bxl-reddit"></i></a>
+                                        <div class="job">Web + UI/UX Desginer</div>
+                                        <div class="job">
+                                            <small
+                                                    >3 Year experience of Web & Mobile app UX & Custom
+                                                Desgining & Also have networking skills.
+                                            </small
+                                                    >
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <button class="modal-close">
+                                <span class="visuallyhidden">Close modal box</span>
+                            </button>
+                        </div>
 
-                            <!--//Member 5th//-->
+                        <div class="content">
+                            <div class="img">
+                                <img src="assets/img/bassit.jpeg" alt=""/>
+                            </div>
+                            <div class="details">
+                                <div class="name">Abd-ul-Basit</div>
+                                <div class="job work">Web + UI/UX Desginer</div>
+                                <a href="assets/img/.." download="" class="button"
+                                        >Download CV<i class="fa fa-download"></i
+                                        ></a>
+                            </div>
+                            <div class="media-icons">
+                                <a href="https://www.facebook.com/basit.sohail.5"
+                                        ><i class="fa fa-facebook"></i
+                                        ></a>
+                                <a
+                                        href="https://twitter.com/AbdulBa05281240?t=lSnqkpOBOnHkq7ZWc0UjCw&s=08"
+                                        ><i class="fa fa-twitter"></i
+                                        ></a>
+                                <a href="https://www.linkedin.com/in/abdul-basit-13071822b"
+                                        ><i class="fa fa-linkedin"></i
+                                        ></a>
+                                <a
+                                        href="https://www.reddit.com/u/No_Network7074?utm_medium=android_app&utm_source=share"
+                                        ><i class="fa fa-reddit"></i
+                                        ></a>
+                            </div>
+                        </div>
+                    </div>
 
-                            <div class="card">
+                    <!--//Member 5th//-->
 
-                                <div class="product_bubble product_bubble_right product_bubble_red   ">
-                                    <button class="modal-open view-btn">View More</button>
-                                </div>
+                    <div class="card">
+                        <div
+                                class="product_bubble product_bubble_right product_bubble_red"
+                                >
+                            <button class="modal-open view-btn">View More</button>
+                        </div>
 
-                                <div class="modal-box">
-                                    <div class="modal-box-content">
-
-                                        <div class="content">
-
-                                            <div class="img image">
-                                                <img src="assets/img/abdullah.jpeg" alt="">
-
-                                            </div>
-                                            <div class="details">
-                                                <div class="name">Muhammad Abdullah</div>
-                                                <div class="job">Web Designer</div>
-                                                <div class="job"><small>1 Year experience of Web Desgin & Also have Programming skills C/C++/Core PHP.</small></div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="modal-close"><span class="visuallyhidden">Close modal box</span></button>
-                                </div>
-
-
+                        <div class="modal-box">
+                            <div class="modal-box-content">
                                 <div class="content">
-                                    <div class="img">
-                                        <img src="assets/img/abdullah.jpeg" alt="">
+                                    <div class="img image">
+                                        <img src="assets/img/abdullah.jpeg" alt=""/>
                                     </div>
                                     <div class="details">
                                         <div class="name">Muhammad Abdullah</div>
-                                        <div class="job work">Web Designer</div>
-                                        <a href="assets/img/Muhammad-Abdullah-CV.pdf" download="" class="button">Download CV<i class="bx bx-download"></i></a>
-                                    </div>
-                                    <div class="media-icons">
-                                        <a href="https://www.facebook.com/profile.php?id=100054688911423"><i class="bx bxl-facebook"></i></a>
-                                        <a href="https://twitter.com/SHARIFEST?t=on3AhcQgXKNsFDKCV9KE4g&s=08"><i class="bx bxl-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/in/abdullah-here-0ba99422b"><i class="bx bxl-linkedin"></i></a>
-                                        <a href=""><i class="bx bxl-instagram"></i></a>
+                                        <div class="job">Web Designer</div>
+                                        <div class="job">
+                                            <small
+                                                    >1 Year experience of Web Desgin & Also have
+                                                Programming skills C/C++/Core PHP.
+                                            </small
+                                                    >
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <button class="modal-close">
+                                <span class="visuallyhidden">Close modal box</span>
+                            </button>
+                        </div>
 
-                            <!--//Member 6th//-->
+                        <div class="content">
+                            <div class="img">
+                                <img src="assets/img/abdullah.jpeg" alt=""/>
+                            </div>
+                            <div class="details">
+                                <div class="name">Muhammad Abdullah</div>
+                                <div class="job work">Web Designer</div>
+                                <a
+                                        href="assets/img/Muhammad-Abdullah-CV.pdf"
+                                        download=""
+                                        class="button"
+                                        >Download CV<i class="fa fa-download"></i
+                                        ></a>
+                            </div>
+                            <div class="media-icons">
+                                <a
+                                        href="https://www.facebook.com/profile.php?id=100054688911423"
+                                        ><i class="fa fa-facebook"></i
+                                        ></a>
+                                <a
+                                        href="https://twitter.com/SHARIFEST?t=on3AhcQgXKNsFDKCV9KE4g&s=08"
+                                        ><i class="fa fa-twitter"></i
+                                        ></a>
+                                <a
+                                        href="https://www.linkedin.com/in/abdullah-here-0ba99422b"
+                                        ><i class="fa fa-linkedin"></i
+                                        ></a>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
-                            <div class="card">
+                    <!--//Member 6th//-->
 
-                                <div class="product_bubble product_bubble_right product_bubble_red   ">
-                                    <button class="modal-open view-btn">View More</button>
-                                </div>
+                    <div class="card">
+                        <div
+                                class="product_bubble product_bubble_right product_bubble_red"
+                                >
+                            <button class="modal-open view-btn">View More</button>
+                        </div>
 
-                                <div class="modal-box">
-                                    <div class="modal-box-content">
-
-                                        <div class="content">
-
-                                            <div class="img image">
-                                                <img src="assets/img/dp-hamza.jpg" alt="">
-                                            </div>
-                                            <div class="details">
-                                                <div class="name">Muhammad Hamza</div>
-                                                <div class="job">Web Desginer</div>
-                                                <div class="job"><small>4 Year experience of Web Desgin & Also have Programming skills C++/OOP & Oracle/Core PHP.</small></div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="modal-close"><span class="visuallyhidden">Close modal box</span></button>
-                                </div>
-
+                        <div class="modal-box">
+                            <div class="modal-box-content">
                                 <div class="content">
-                                    <div class="img">
-                                        <img src="assets/img/dp-hamza.jpg" alt="">
+                                    <div class="img image">
+                                        <img src="assets/img/dp-hamza.jpg" alt=""/>
                                     </div>
                                     <div class="details">
                                         <div class="name">Muhammad Hamza</div>
-                                        <div class=" job work">Web Desginer</div>
-                                        <a href="assets/img/Muhammad-Hamza-CV.pdf" download="" class="button">Download CV<i class="bx bx-download"></i></a>
-                                    </div>
-                                    <div class="media-icons">
-                                        <a href="#"><i class="bx bxl-facebook"></i></a>
-                                        <a href="#"><i class="bx bxl-twitter"></i></a>
-                                        <a href="#"><i class="bx bxl-linkedin"></i></a>
-                                        <a href="#"><i class="bx bxl-github"></i></a>
+                                        <div class="job">Web Desginer</div>
+                                        <div class="job">
+                                            <small
+                                                    >4 Year experience of Web Desgin & Also have
+                                                Programming skills C++/OOP & Oracle/Core PHP.
+                                            </small
+                                                    >
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <button class="modal-close">
+                                <span class="visuallyhidden">Close modal box</span>
+                            </button>
                         </div>
-                    </div>
-                    <div class="buttons">
-                        <label for="one" class=" active one"></label>
-                        <label for="two" class="two"></label>
-                    </div>
-                </div>
 
-            </section>
-
-
-
-            <!--===== Team Members Modal/Pop-up =====-->
-
-
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form  action="https://formspree.io/f/mbjwywzw" method="post" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input" name="Name" id="Name">
-                        <input type="email" placeholder="Email" class="contact__input" name="Sender" id="Sender">
-                        <input type="text" class="contact__input" name="Subject" id="Subject" placeholder="Subject">
-                        <textarea cols="0" rows="10" class="contact__input" name="Message" id="Message" placeholder="Message!!!"></textarea>
-                        <button type="submit" value="Submit" class="contact__button button">Submit<i class="fa fa-paper-plane-o"></i></button>
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Muhammad Hamza.</p>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/profile.php?id=100040991163665" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/mr.hamxa_266" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://www.reddit.com/u/Mr-Hamza_0266?utm_medium=android_app&utm_source=share" class="footer__icon"><i class='bx bxl-reddit' ></i></a>
-                <a href="https://www.twitter.com/hamza_0266?t=2Z3HvSBU5Z-kdmj4MmO06w&s=08" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <p class="footer__copy">&#169; Mr.Hamza. All rigths reserved</p>
-        </footer>
-
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-
-        <!--===== Modal Pop-Up JS =====-->
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script>
-            var $trigger = $('.modal-open');
-            var $close = $('.modal-close');
-            var $modal = $('.modal-box');
-
-            $(window).on('resize', function() {
-                var top = $trigger.offset().top + $trigger.outerHeight();
-                var left = $trigger.offset().left;
-                var width = $trigger.outerWidth();
-                $trigger.attr({
-                    'data-top': top,
-                    'data-left': left,
-                    'data-width': width
-                });
-                $modal.css({
-                    top: top,
-                    left: left
-                });
-            }).trigger('resize');
-
-            $trigger.on('click', function() {
-                $modal.css({
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%'
-                }).addClass('is-open');
-            });
-
-            $close.on('click', function() {
-                var top = $trigger.offset().top + $trigger.outerHeight();
-                var left = $trigger.offset().left;
-                $modal.css({
-                    top: top,
-                    left: left,
-                    width: 0,
-                    height: '2px'
-                }).removeClass('is-open');
-            });
-        </script>
-        <!--===== Download CV JS =====-->
-
-        <script>
-            let button = document.querySelector("body a");
-            button.addEventListener("click",()=>{
-            const span = document.querySelector("a span");
-            button.style.paddingRight='10px';
-            span.style.visibility="visible";
-            setTimeout( ()=>{
-                span.style.visibility="hidden";
-                button.style.paddingRight ="0px";
-            },1000);
-            });
-        </script>
-
-
-        <!--===== Chat Box JS=====-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-
-        <div id='whatsapp-chat' class='hide'>
-            <div class='header-chat'>
-                <div class='head-home'>
-                    <div class='info-avatar'><img src="assets/img/hamza.png" /></div>
-                    <p><span class="whatsapp-name">Mr.Hamza</span><br><small>Welcome to IT-Garage</small></p>
-                    <!--src='https://files.elfsight.com/storage/9274ed8b-a2e8-4cf8-a4cf-fad383377f2b/7b75090c-19a2-452b-9d6b-c2a51ad4916f.jpeg'-->
-                </div>
-                <div class='get-new hide'>
-                    <div id='get-label'></div>
-                    <div id='get-nama'></div>
-                </div>
-            </div>
-            <div class='home-chat'>
-
-            </div>
-            <div class='start-chat' id="chat">
-                <div pattern="https://elfsight.com/assets/chats/patterns/whatsapp.png" class="WhatsappChat__Component-sc-1wqac52-0 whatsapp-chat-body">
-                    <div class="WhatsappChat__MessageContainer-sc-1wqac52-1 dAbFpq">
-                        <div style="opacity: 0;" class="WhatsappDots__Component-pks5bf-0 eJJEeC">
-                            <div class="WhatsappDots__ComponentInner-pks5bf-1 hFENyl">
-                                <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotOne-pks5bf-3 ixsrax"></div>
-                                <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotTwo-pks5bf-4 dRvxoz"></div>
-                                <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotThree-pks5bf-5 kXBtNt"></div>
+                        <div class="content">
+                            <div class="img">
+                                <img src="assets/img/dp-hamza.jpg" alt=""/>
+                            </div>
+                            <div class="details">
+                                <div class="name">Muhammad Hamza</div>
+                                <div class="job work">Web Desginer</div>
+                                <a
+                                        href="assets/img/Muhammad-Hamza-CV.pdf"
+                                        download=""
+                                        class="button"
+                                        >Download CV<i class="fa fa-download"></i
+                                        ></a>
+                            </div>
+                            <div class="media-icons">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-github"></i></a>
                             </div>
                         </div>
-                        <div style="opacity: 1;" class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq">
-                            <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">Mr.Hamza</div>
-                            <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">Hi there ?<br><br>How can I help you?</div>
-                            <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">1:40</div>
-                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="buttons">
+                <label for="one" class="active one"></label>
+                <label for="two" class="two"></label>
+            </div>
+        </div>
+    </section>
 
-                <div class='blanter-msg'>
-                    <textarea id='chat-input' placeholder='Write a response' maxlength='120' row='1'></textarea>
-                    <a href='javascript:void;' id='send-it'><svg viewBox="0 0 448 448"><path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z"/></svg></a>
+    <!--===== Team Members Modal/Pop-up =====-->
 
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <form
+                    action="https://formspree.io/f/mbjwywzw"
+                    method="post"
+                    class="contact__form"
+                    >
+                <input
+                        type="text"
+                        placeholder="Name"
+                        class="contact__input"
+                        name="Name"
+                        id="Name"
+                        />
+                <input
+                        type="email"
+                        placeholder="Email"
+                        class="contact__input"
+                        name="Sender"
+                        id="Sender"
+                        />
+                <input
+                        type="text"
+                        class="contact__input"
+                        name="Subject"
+                        id="Subject"
+                        placeholder="Subject"
+                        />
+            <textarea
+                    cols="0"
+                    rows="10"
+                    class="contact__input"
+                    name="Message"
+                    id="Message"
+                    placeholder="Message!!!"
+                    ></textarea>
+                <button type="submit" value="Submit" class="contact__button button">
+                    Submit<i class="fa fa-paper-plane-o"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!--===== FOOTER =====-->
+<footer class="footer">
+    <p class="footer__title">Muhammad Hamza.</p>
+
+    <div class="footer__social">
+        <a
+                href="https://www.facebook.com/profile.php?id=100040991163665"
+                class="footer__icon"
+                ><i class="fa fa-facebook"></i
+                ></a>
+        <a href="https://www.instagram.com/mr.hamxa_266" class="footer__icon"
+                ><i class="fa fa-instagram"></i
+                ></a>
+        <a
+                href="https://www.reddit.com/u/Mr-Hamza_0266?utm_medium=android_app&utm_source=share"
+                class="footer__icon"
+                ><i class="fa fa-reddit"></i
+                ></a>
+        <a
+                href="https://www.twitter.com/hamza_0266?t=2Z3HvSBU5Z-kdmj4MmO06w&s=08"
+                class="footer__icon"
+                ><i class="fa fa-twitter"></i
+                ></a>
+    </div>
+    <p class="footer__copy">&#169; Mr.Hamza. All rigths reserved</p>
+</footer>
+<div id="whatsapp-chat" class="hide">
+    <div class="header-chat">
+        <div class="head-home">
+            <div class="info-avatar"><img src="assets/img/hamza.png"/></div>
+            <p>
+                <span class="whatsapp-name">Mr.Hamza</span><br/>
+                <small
+                        >Welcome to IT-Garage
+                </small
+                        >
+            </p>
+            <!--src='https://files.elfsight.com/storage/9274ed8b-a2e8-4cf8-a4cf-fad383377f2b/7b75090c-19a2-452b-9d6b-c2a51ad4916f.jpeg'-->
+        </div>
+        <div class="get-new hide">
+            <div id="get-label"></div>
+            <div id="get-nama"></div>
+        </div>
+    </div>
+    <div class="home-chat"></div>
+    <div class="start-chat" id="chat">
+        <div
+                pattern="https://elfsight.com/assets/chats/patterns/whatsapp.png"
+                class="WhatsappChat__Component-sc-1wqac52-0 whatsapp-chat-body"
+                >
+            <div class="WhatsappChat__MessageContainer-sc-1wqac52-1 dAbFpq">
+                <div
+                        style="opacity: 0"
+                        class="WhatsappDots__Component-pks5bf-0 eJJEeC"
+                        >
+                    <div class="WhatsappDots__ComponentInner-pks5bf-1 hFENyl">
+                        <div
+                                class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotOne-pks5bf-3 ixsrax"
+                                ></div>
+                        <div
+                                class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotTwo-pks5bf-4 dRvxoz"
+                                ></div>
+                        <div
+                                class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotThree-pks5bf-5 kXBtNt"
+                                ></div>
+                    </div>
+                </div>
+                <div
+                        style="opacity: 1"
+                        class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq"
+                        >
+                    <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">
+                        Mr.Hamza
+                    </div>
+                    <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">
+                        Hi there ?<br/><br/>How can I help you?
+                    </div>
+                    <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">1:40</div>
                 </div>
             </div>
-            <div id='get-number'></div><a class='close-chat' href='javascript:void'>x</a>
         </div>
-        <a class='blantershow-chat' href='javascript:void' title='Show Chat'>
-            <svg width="20" viewBox="0 0 24 24"><defs/><path fill="#eceff1" d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"/><path fill="#4caf50" d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"/><path fill="#fafafa" d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></svg>Mr. <span style="color: var(--first-color)">Hamza</span></a>
 
+        <div class="blanter-msg">
+          <textarea
+                  id="chat-input"
+                  placeholder="Write a response"
+                  maxlength="120"
+                  row="1"
+                  ></textarea>
+            <a id="send-it"
+                    >
+                <svg viewBox="0 0 448 448">
+                    <path
+                            d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z"
+                            />
+                </svg
+                        >
+            </a>
+        </div>
+    </div>
+    <div id="get-number"></div>
+    <a class="close-chat" href="javascript:void">x</a>
+</div>
+<a class="blantershow-chat" href="javascript:void" title="Show Chat">
+    <svg width="20" viewBox="0 0 24 24">
+        <defs/>
+        <path
+                fill="#eceff1"
+                d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"
+                />
+        <path
+                fill="#4caf50"
+                d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"
+                />
+        <path
+                fill="#fafafa"
+                d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"
+                />
+    </svg
+            >
+    Mr. <span style="color: var(--first-color)">Hamza</span></a
+        >
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-        <script>
-            $(document).on("click", "#send-it", function() {
-                var a = document.getElementById("chat-input");
-                if ("" != a.value) {
-                    var b = $("#get-number").text(),
-                            c = document.getElementById("chat-input").value,
-                            d = "https://web.whatsapp.com/send",
-                            e = b,
-                            f = "&text=" + c;
-                    if (
-                            /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-                                    navigator.userAgent
-                            )
-                    )
-                        var d = "whatsapp://send";
-                    var g = d + "?phone=+92 304 9298665" + e + f;
-                    window.open(g, "_blank");
-                }
-            }),
-                    $(document).on("click", ".informasi", function() {
-                        (document.getElementById("get-number").innerHTML = $(this)
-                                .children(".my-number")
-                                .text()),
-                                $(".start-chat,.get-new")
-                                        .addClass("show")
-                                        .removeClass("hide"),
-                                $(".home-chat,.head-home")
-                                        .addClass("hide")
-                                        .removeClass("show"),
-                                (document.getElementById("get-nama").innerHTML = $(this)
-                                        .children(".info-chat")
-                                        .children(".chat-nama")
-                                        .text()),
-                                (document.getElementById("get-label").innerHTML = $(this)
-                                        .children(".info-chat")
-                                        .children(".chat-label")
-                                        .text());
-                    }),
-                    $(document).on("click", ".close-chat", function() {
-                        $("#whatsapp-chat")
-                                .addClass("hide")
-                                .removeClass("show");
-                    }),
-                    $(document).on("click", ".blantershow-chat", function() {
-                        $("#whatsapp-chat")
-                                .addClass("show")
-                                .removeClass("hide");
-                    });
-
-        </script>
-
-
-        <!--===== Modal JS =====-->
-        <script>
-            const openEls = document.querySelectorAll("[data-open]");
-            const closeEls = document.querySelectorAll("[data-close]");
-            const isVisible = "is-visible";
-
-            for (const el of openEls) {
-                el.addEventListener("click", function() {
-                    const modalId = this.dataset.open;
-                    document.getElementById(modalId).classList.add(isVisible);
-                });
-            }
-
-            for (const el of closeEls) {
-                el.addEventListener("click", function() {
-                    this.parentElement.parentElement.parentElement.classList.remove(isVisible);
-                });
-            }
-
-            document.addEventListener("click", e => {
-                if (e.target == document.querySelector(".modal.is-visible")) {
-                document.querySelector(".modal.is-visible").classList.remove(isVisible);
-            }
-            });
-
-            document.addEventListener("keyup", e => {
-                // if we press the ESC
-                if (e.key == "Escape" && document.querySelector(".modal.is-visible")) {
-                document.querySelector(".modal.is-visible").classList.remove(isVisible);
-            }
-            });
-        </script>
-
+<!--===== SCROLL REVEAL =====-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<!--===== MAIN JS =====-->
+<script src="assets/js/main.js"></script>
 </body>
 </html>
