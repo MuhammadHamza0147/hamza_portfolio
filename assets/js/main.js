@@ -38,30 +38,19 @@ $(document).ready(function () {
   $(".blanter-show").on("click", function () {
     $("#whatsapp-chat").addClass("show").removeClass("hide");
   });
+
+  /*===== MENU SHOW =====*/
+  $("#nav__toggle").on("click", function () {
+    $(this).toggleClass("nav-open");
+    $("#nav-menu").toggleClass("show");
+  });
+
+  /*==================== REMOVE MENU MOBILE ====================*/
+  $(".nav__link").on("click", function () {
+    $("#nav__toggle").removeClass("nav-open");
+    $("#nav-menu").removeClass("show");
+  });
 });
-
-/*===== MENU SHOW =====*/
-const showMenu = (toggleId, navId) => {
-  const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId);
-
-  if (toggle && nav) {
-    toggle.addEventListener("click", () => {
-      nav.classList.toggle("show");
-    });
-  }
-};
-showMenu("nav-toggle", "nav-menu");
-
-/*==================== REMOVE MENU MOBILE ====================*/
-const navLink = document.querySelectorAll(".nav__link");
-
-function linkAction() {
-  const navMenu = document.getElementById("nav-menu");
-  // When we click on each nav__link, we remove the show-menu class
-  navMenu.classList.remove("show");
-}
-navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll("section[id]");
