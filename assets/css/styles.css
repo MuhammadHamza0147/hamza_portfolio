@@ -384,6 +384,7 @@ img {
 .buttons {
     display: inline-block;
     background-color: var(--first-color);
+    border:1px solid var(--first-color);
     color: #fff;
     padding: 0.75rem 2.5rem;
     font-weight: var(--font-semi);
