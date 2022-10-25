@@ -236,6 +236,10 @@ img {
         background-color: var(--second-color);
         transition: 0.5s;
     }
+    .skills__container2{
+        margin-top: 0!important;
+    }
+
 }
 
 .nav__item {
@@ -424,10 +428,14 @@ img {
 }
 
 /* ===== SKILLS =====*/
+.skills__container2 {
+    margin-top: 3rem;
+}
 .skills__container {
     row-gap: 2rem;
     text-align: center;
 }
+
 
 .skills__subtitle {
     margin-bottom: var(--mb-2);
@@ -489,15 +497,18 @@ img {
 }
 
 .skills__js {
-    width: 50%;
+    width: 80%;
 }
 
 .skills__php {
-    width: 55%;
+    width: 80%;
 }
 
 .skills__sql {
     width: 90%;
+}
+.skills__tailwindcss {
+    width: 55%;
 }
 
 .skills__bootstrap {
@@ -564,6 +575,11 @@ img {
     padding: 2rem 0;
 }
 
+.footer__title2 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    margin-bottom: var(--mb-4);
+}
 .footer__title {
     font-size: 2rem;
     margin-bottom: var(--mb-4);
